@@ -1,0 +1,71 @@
+# Project information
+site_name: OnTime.JS JSON Format
+site_description: 'Specification of the OnTime.JS JSON Format'
+site_author: 'STÜBER SYSTEMS GmbH'
+site_url: 'https://doc.ontimejs-json.stueber.co.uk'
+
+# Copyright
+copyright: © 2019 STÜBER SYSTEMS GmbH
+
+# Repository
+repo_name: 'On GitHub'
+repo_url: 'https://github.com/stuebersystems/doc.ontimejs-json'
+
+# Theming
+theme: 
+    name: null
+    custom_dir: 'theme'
+    language: en
+    direction:
+    feature:
+        tabs: false
+    palette:
+        primary: 'blue'
+        accent: 'deep orange'
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/logos/favicon.ico
+    logo: 'assets/logos/logo.svg'
+    include_search_page: false
+    search_index_only: true
+    static_templates:
+      - 404.html
+
+# Customization
+extra_css:
+    - assets/css/custom.css
+
+# Extensions    
+markdown_extensions:
+    - admonition
+  
+# Navigation  
+nav:
+- Introduction: index.md
+- Objects:
+  - onplan: objects/onplan.md
+  - result: objects/result.md
+  - about: objects/about.md
+  - note: objects/note.md
+  - user: objects/user.md
+  - users: objects/users.md
+  - Schedule objects: 
+    - classAbsence: objects/classAbsence.md
+    - roomAbsence: objects/roomAbsence.md
+    - teacherAbsence: objects/teacherAbsence.md
+    - displaySchedule: objects/displaySchedule.md
+  - Catalogue objects:
+    - area: objects/area.md
+    - building: objects/building.md
+    - candidate: objects/candidate.md
+    - catalogEntry: objects/catalogEntry.md
+    - class: objects/class.md
+    - course: objects/course.md
+    - resource: objects/resource.md
+    - room: objects/room.md
+    - student: objects/student.md
+    - subject: objects/subject.md
+    - teacher: objects/teacher.md
+    - team: objects/team.md
+    - timeframe: objects/timeframe.md
