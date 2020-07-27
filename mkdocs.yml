@@ -5,32 +5,39 @@ site_author: 'STÜBER SYSTEMS GmbH'
 site_url: 'https://doc.ontimejs-json.stueber.co.uk'
 
 # Copyright
-copyright: © 2019 STÜBER SYSTEMS GmbH
+copyright: © 2020 STÜBER SYSTEMS GmbH
 
 # Repository
 repo_name: 'On GitHub'
 repo_url: 'https://github.com/stuebersystems/doc.ontimejs-json'
 
 # Theming
+# Theming
 theme: 
-    name: null
-    custom_dir: 'theme'
-    language: en
-    direction:
+    name: material
+    custom_dir: overrides
+    language: de
     feature:
-        tabs: false
+        - tabs
+        - instant
     palette:
-        primary: 'blue'
-        accent: 'deep orange'
-    font:
-        text: Roboto
-        code: Roboto Mono
+        primary: 'indigo'
+        accent: 'amber'
+    font: false
     favicon: assets/logos/favicon.ico
     logo: 'assets/logos/logo.svg'
     include_search_page: false
     search_index_only: true
     static_templates:
       - 404.html
+
+# Legal links
+extra:
+  legal:
+    - label: Imprint
+      link: https://www.stueber.co.uk/imprint.php
+    - label: Privacy
+      link: https://legal.stueber.co.uk/privacy.php
 
 # Customization
 extra_css:

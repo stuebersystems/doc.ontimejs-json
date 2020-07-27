@@ -1,14 +1,12 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/5o3gd92xo58i57xp?svg=true)](https://ci.appveyor.com/project/stueber/doc-ontimejs-json)
-
 # OnTime.JS Specification
 
 This is the specification of the OnTime.JS JSON Format: the data format for displaying timetable data using the OnTime.JS library. The OnTime.JS data format is a JSON format developed for OnTime.JS and used by DAVINCI and other applications for displaying timetable data. It abstracts from the underlying and more sophisticated data object models of DAVINCI. It is easier to understand and more cost effective in integration projects.
 
-This documentation is Open Source and we have implemented it using [MkDocs](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material). Push Requests in the master branch are triggered in [AppVeyor](https://www.appveyor.com) so that each change is published automatically.
+This documentation is Open Source and we have implemented it using [MkDocs](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material).
 
 ## Install MkDocs for Windows
 
-1. Install [Python](https://www.python.org). Go to the [Python downloads](https://www.python.org/downloads/) page and download the latest version for Windows. For example, for version 3.7.2 the link would be: [Windows x86-64 executable installer](https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe).
+1. Install [Python](https://www.python.org). Go to the [Python downloads](https://www.python.org/downloads/) page and download the latest version for Windows. 
 
 2. Launch the installer and follow the on-screen instructions.
 
@@ -16,7 +14,7 @@ This documentation is Open Source and we have implemented it using [MkDocs](http
 
 4. Enter the command `python --version` and `pip --version` to check the Python installation. In both cases a version number should appear as an output in the command prompt.
 
-5. Enter the command `pip install mkdocs` to install the MkDocs Python package.
+5. Enter the command `pip install mkdocs mkdocs-material` to install the *MkDocs* Python package and the *Material for MkDocs* theme.
 
 6. Final test: Enter the command `mkdocs --version`. A version nummer in the command prompt will let you know if everything has been installed correctly.
 
@@ -51,11 +49,6 @@ You have installed Python and the MkDocs package, cloned the repository or downl
 3. To display the result, enter the command `mkdocs serve` and open the URL `http://127.0.0.1:8000` in your Web browser.
 
 The table of contents can be found in the `mkdocs.yml` file and the individual chapters are in the `docs` subdirectory. 
-
-## Further Informationen
-
-+ [Git - All you need to know](https://git-scm.com/book/en/v2)
-+ [MkDocs Overview](https://www.mkdocs.org/#overview)
 
 ## Can I help?
 
